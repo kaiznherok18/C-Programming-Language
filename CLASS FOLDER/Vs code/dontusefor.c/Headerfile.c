@@ -1,0 +1,14 @@
+#include <drm_fourcc.h>
+#include <stdlib.h>
+#include <stdio.h>
+#include <unistd.h>
+#include <wlr/render/drm_syncobj.h>
+#include <wlr/util/box.h>
+#include <wlr/util/log.h>
+#include <xf86drm.h>
+#include <xf86drmMode.h>
+#include "backend/drm/drm.h"
+#include "backend/drm/fb.h"
+#include "backend/drm/iface.h"
+#include "backend/drm/util.h"
+#include "types/wlr_output.h"

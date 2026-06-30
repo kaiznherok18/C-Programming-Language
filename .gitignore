@@ -1,0 +1,8 @@
+# Build and IDE artifacts
+cmake-build-debug/
+build/
+*.exe
+*.o
+*.obj
+*.out
+.vscode/
